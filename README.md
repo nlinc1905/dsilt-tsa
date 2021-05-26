@@ -36,6 +36,7 @@ Kaggle notebook:  https://www.kaggle.com/nicholaslincoln/anomaly-detection-forec
 ### Sequence Prediction Project
 
 Maestro MIDI Dataset:  https://magenta.tensorflow.org/datasets/maestro
+Transformer Music Generation repo:  https://github.com/nlinc1905/transformer-music-generation
 
 ### Time Series Classification Project
 
