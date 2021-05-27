@@ -9,6 +9,18 @@ source env/bin/activate
 python -m pip install -r requirements.txt
 ```
 
+For the time_series_classification API service, you will need to train the models before starting the API.  This can be done by running the evaluation script:
+
+```
+python evaluate_models.py
+```
+
+The API can then be ininialized with:
+
+```
+uvicorn main:app
+```
+
 # Links
 
 Links from the lecture slides are listed below, under the name of the lecture they are from.
@@ -19,11 +31,12 @@ Links from the lecture slides are listed below, under the name of the lecture th
 
 ### Forecasting with Nonlinear Models
 
-* Convolutional neural networks learn different features at different levels:  https://www.desmos.com/calculator/nqfu5lxaij
+* Convolutional neural networks learn different features at different levels:  https://indico.io/blog/exploring-computer-vision-convolutional-neural-nets/
+* Paper that introduced the transformer: https://arxiv.org/abs/1706.03762
 
 ### Signals
 
-* Visual explanation of the Fourier Transform:  https://www.desmos.com/calculator/nqfu5lxaij
+* Visual explanation of the Fourier Transform:  https://www.youtube.com/watch?v=spUNpyF58BY
 
 ### Anomaly Detection and Forecasting Project
 
@@ -31,7 +44,7 @@ Links from the lecture slides are listed below, under the name of the lecture th
 
 ### Segmentation Project
 
-* Kaggle notebook:  https://www.kaggle.com/nicholaslincoln/anomaly-detection-forecasting
+* Kaggle notebook:  https://www.kaggle.com/nicholaslincoln/brett-favre-change-point-detection
 
 ### Sequence Prediction Project
 

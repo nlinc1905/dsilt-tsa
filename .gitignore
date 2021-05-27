@@ -135,4 +135,4 @@ idea/
 # Data files
 *.geojson
 *.csv
-
+*/model_tracking/*

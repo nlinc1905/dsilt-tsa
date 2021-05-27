@@ -4,6 +4,7 @@ dash-core-components==1.12.1
 dash-html-components==1.1.1
 dash-renderer==1.8.1
 dash-table==4.10.1
+fastapi==0.65.1
 folium==0.12.0
 geopandas==0.8.1
 h5py==3.2.1
@@ -20,10 +21,11 @@ keras-self-attention==0.46.0
 keras-transformer==0.38.0
 librosa==0.8.0
 matplotlib==3.4.2
-numpy==1.20.3
+numpy==1.19.5
 pandas==1.1.2
 pandas-datareader==0.9.0
 pydantic==1.6.1
+python-multipart==0.0.5
 scikit-image==0.17.2
 scikit-learn==0.23.2
 scipy==1.6.3
