@@ -9,6 +9,8 @@ source env/bin/activate
 python -m pip install -r requirements.txt
 ```
 
+### Time Series Classification API Service
+
 For the time_series_classification API service, you will need to train the models before starting the API.  This can be done by running the evaluation script:
 
 ```
@@ -20,6 +22,8 @@ The API can then be ininialized with:
 ```
 uvicorn main:app
 ```
+
+Go to http://127.0.0.1:8000/docs to try it out.
 
 # Links
 
